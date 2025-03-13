@@ -1,0 +1,57 @@
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+.form-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+.navbar-container{
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.profile-icon{
+    margin-right: 15px;
+    font-size: 24px;
+}
+.table-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Adjust as needed */
+}
+
+table {
+    width: 60%; /* Adjust width as needed */
+    max-width: 800px; /* Prevents table from being too wide */
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f8f9fa;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    table {
+        width: 90%; /* Makes it more mobile-friendly */
+    }
+}
